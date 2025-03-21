@@ -33,6 +33,7 @@ import Chart from "../Components/Chart.jsx";
 import AdminTeam from "../Components/AdminTeam.jsx";
 import AdminStats from "../Components/AdminStats.jsx";
 import Feedback from "react-bootstrap/esm/Feedback.js";
+import LeaderboardApp from "../Components/leaderboard.jsx";
 
 export default function Blogs() {
   const [blogs, setBlogs] = useState([]);
@@ -476,15 +477,8 @@ export default function Blogs() {
 
       <AdminStats guides={guides.length} manuals={manuals.length}/>
 
+      <LeaderboardApp />
       <div className="flex flex-col md:flex-row lg:px-32 md:px-32">
-        <div className="w-full md:w-11/12">
-          <div className="bg-white w-11/12 md:w-full rounded-lg mx-auto my-4 text-center border-2 border-black">
-            <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl py-6">
-              Leader Board
-            </h1>
-            <Chart />
-          </div>
-        </div>
         <div className="md:flex bg-white w-11/12 md:w-6/12 mx-auto my-4 text-center">
           <div className=" md:w-11/12 mx-auto border-2 border-black rounded-lg h-full md:justify-end">
             <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl py-6">

@@ -7,7 +7,7 @@ import Blogs from "../Components/Blogs";
 import Navbar from "../Components/Navbar";
 import Testimonial from "../Components/Testimonial";
 import Services from "../Components/About-Us/Services";
-
+import LeaderboardApp from "../Components/leaderboard";
 
 function LandingPage() {
   const [isLoaded, setIsLoaded] = useState(false);
