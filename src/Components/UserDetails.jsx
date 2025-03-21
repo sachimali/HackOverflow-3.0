@@ -95,7 +95,7 @@ export default function UserDetails() {
   }
   return (
     <>
-      <div className="flex items-center justify-start ml-16">
+      <div className="flex items-center justify-center ml-16">
         <div className=" p-8 max-w-md w-full">
           <div className="flow-root rounded-lg border ">
             <dl className="my-3 divide-y divide-gray-100 text-sm">
