@@ -1,0 +1,45 @@
+{
+  "name": "rotacodefest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ionic/react": "^7.7.3",
+    "@kommunicate/kommunicate-chatbot-plugin": "^0.0.7",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "axios": "^1.6.7",
+    "bootstrap": "^4.6.2",
+    "firebase": "^10.14.1",
+    "framer-motion": "^11.0.8",
+    "leaflet": "^1.9.4",
+    "leaflet-control-geocoder": "^2.4.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.4",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.22.0",
+    "react-toastify": "^10.0.4",
+    "recharts": "^2.12.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.34",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}
